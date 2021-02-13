@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import ReactDom from 'react-dom'
+import Todo from './todo-app/Todo.jsx'
 
 class App extends Component {	
 
@@ -12,7 +13,8 @@ class App extends Component {
 
 	render() {
 		return (
-			<div>	
+			<div>
+				<Todo/>
 			</div>
 		);
 	}
